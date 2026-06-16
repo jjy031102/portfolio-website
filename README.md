@@ -1,5 +1,86 @@
-# Vue 3 + Vite
+# README\.md
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# 🎨 个人前端作品集网站
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+一款基于 Vue3 \+ Vite 开发的个人前端作品集网站，专为前端求职打造，页面简洁美观、响应式适配移动端与PC端。适合应届毕业生用于简历附属展示、线上面试投递，全方位展示个人基础信息、技术能力与实战项目经验。
+
+## 📌 项目简介
+
+本项目为计算机应用技术专业应届大专生独立开发的个人线上作品集，替代传统静态简历，以网页形式生动展示个人求职信息、技能储备以及实战开发项目。整体UI风格简约现代化，动画交互流畅，开箱即用，支持本地运行与线上部署。
+
+## 🛠️ 技术栈
+
+- **构建框架**：Vue3（组合式API）
+
+- **构建工具**：Vite（极速启动、热更新）
+
+- **样式框架**：Tailwind CSS
+
+- **开发语言**：JavaScript
+
+## ✨ 核心功能
+
+1. **首页模块**：展示个人基础资料、求职意向、个人简介，直观呈现自我优势；
+
+2. **作品展示**：卡片式陈列3个前端实战项目，包含项目简介、技术栈、访问地址；
+
+3. **技能栈模块**：可视化展示前端相关技能熟练度，清晰体现技术储备；
+
+4. **联系模块**：整合Gitee/GitHub开源地址、联系方式，方便面试官沟通对接；
+
+5. **附加特性**：全页面响应式适配、平滑滚动动画、轻量化无冗余代码。
+
+## 💻 本地运行
+
+请确保本地环境已安装 **Node\.js 16\+** 版本
+
+```bash
+# 克隆/下载项目至本地
+# 进入项目根目录
+cd portfolio-web
+
+# 安装项目依赖
+npm install
+
+# 本地启动开发环境
+npm run dev
+
+# 项目打包（用于线上部署）
+npm run build
+
+```
+
+## 📂 目录结构
+
+```plaintext
+portfolio-web
+├── public          # 静态资源文件夹
+├── src
+│   ├── assets      # 图片、全局样式资源
+│   ├── components  # 全局公共组件
+│   ├── views       # 页面视图（首页/作品/技能/联系我）
+│   ├── router      # 路由配置
+│   └── main.js     # 项目入口文件
+├── .gitignore      # git忽略配置
+├── index.html      # 入口HTML
+├── package.json    # 依赖与脚本配置
+├── vite.config.js  # Vite配置文件
+└── README.md       # 项目说明文档
+
+```
+
+## 🚀 部署方式
+
+1. 执行 `npm run build` 打包项目，生成 `dist` 文件夹；
+
+2. 将dist文件夹上传至静态网站托管平台：**Gitee Pages / GitHub Pages / Vercel / Netlify**；
+
+3. 一键部署即可生成线上访问链接，直接放入简历中。
+
+## 📄 补充说明
+
+- 本项目为个人求职专用作品集，开源仅供学习参考；
+
+- 可自行修改个人信息、项目内容、主题配色，自定义程度极高；
+
+- 无后台、无需数据库，纯静态前端项目，部署零门槛。
